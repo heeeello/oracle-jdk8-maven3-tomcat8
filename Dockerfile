@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER jim.mei@centling.com
 
-ENV TOMCAT_VERSION 8.0.37
+ENV TOMCAT_VERSION 8.0.38
 
 # Set locales
 RUN locale-gen en_US.UTF-8
