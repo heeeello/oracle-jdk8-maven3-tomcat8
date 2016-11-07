@@ -31,7 +31,7 @@ ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
 # get maven 3.3.9
 RUN wget --no-verbose -O /tmp/apache-maven-3.3.9.tar.gz http://archive.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz && \
-    echo "87e5cc81bc4ab9b83986b3e77e6b3095 /tmp/apache-maven-3.3.9.tar.gz" | md5sum -c  && \
+    echo "516923b3955b6035ba6b0a5b031fbd8b /tmp/apache-maven-3.3.9.tar.gz" | md5sum -c  && \
     tar xzf /tmp/apache-maven-3.3.9.tar.gz -C /opt/  && \
     ln -s /opt/apache-maven-3.3.9 /opt/maven && \
     ln -s /opt/maven/bin/mvn /usr/local/bin && \
