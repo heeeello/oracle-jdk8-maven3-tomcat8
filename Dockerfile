@@ -53,6 +53,7 @@ ADD tomcat-users.xml /opt/tomcat/conf/
 
 ENV CATALINA_HOME /opt/tomcat
 ENV PATH $PATH:$CATALINA_HOME/bin
+ENV JAVA_OPTS -Xmx768m
 
 EXPOSE 8080
 EXPOSE 8009
